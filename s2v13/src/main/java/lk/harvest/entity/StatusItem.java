@@ -1,0 +1,31 @@
+package lk.harvest.entity;
+public class StatusItem{
+
+    private int id;
+    private String name;
+
+    public StatusItem() {
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String toString(){
+        return name;
+    }
+
+
+}
